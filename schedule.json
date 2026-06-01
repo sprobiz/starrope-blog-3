@@ -1,0 +1,144 @@
+{
+  "posts": [
+    {
+      "filename": "stock-guide-beginner.html",
+      "title": "초보자를 위한 소액 미국 주식 매매 기법: 소수점 투자부터 ETF 포트폴리오까지",
+      "description": "커피 한 잔 값으로 세계 최고 기업의 주주가 되는 법. 미국 주식 소수점 거래의 장점, 초보 투자자가 반드시 담아야 할 대표적인 지수 추종 ETF(SPY, QQQ), 그리고 환율 변동을 방어하며 꾸준히 수익을 쌓아가는 달러 적립식 투자 비법을 쉽고 체계적으로 공유합니다.",
+      "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800&q=80",
+      "tag": "재테크 / 미국 주식",
+      "date_display": "2026. 06. 02 (오전 8:00)",
+      "publish_date": "2026-06-02",
+      "publish_time": "08:00"
+    },
+    {
+      "filename": "side-hustle-1m.html",
+      "title": "직장인 월 100만 원 현실적인 부업 가이드: PDF 전자책 판매부터 제휴 마케팅까지",
+      "description": "월급 외에 매달 100만 원의 안정적인 현금 파이프라인을 구축하는 실전 로드맵. 내 지식을 돈으로 바꾸는 PDF 전자책 기획 및 크몽 등록법, 비용 없이 시작하는 고수익 제휴 마케팅 기법, 그리고 구글 애드센스 정적 블로그를 통한 장기적 패시브 인컴 자동화 비결을 아낌없이 대공개합니다.",
+      "image_url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80",
+      "tag": "부업 / 패시브 인컴",
+      "date_display": "2026. 06. 02 (오후 4:00)",
+      "publish_date": "2026-06-02",
+      "publish_time": "16:00"
+    },
+    {
+      "filename": "apartment-subscription.html",
+      "title": "내 집 마련을 위한 아파트 청약 전략 및 세테크 방법: 특공 조건과 비과세 혜택 완벽 해부",
+      "description": "아파트 청약 가점이 낮아도 포기하지 않고 청약에 당첨되는 비밀 전략. 무주택 기간 및 부양가족 설계 비법, 생애최초 및 신혼부부 특별공급 자격 완벽 해설, 청약 종합 저축통장 효율 극대화 납입 팁, 그리고 당첨 후 등기칠 때까지 반드시 알아야 할 대출 규제와 핵심 절세 전략(세테크)을 총정리합니다.",
+      "image_url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80",
+      "tag": "부동산 / 세테크",
+      "date_display": "2026. 06. 03 (오전 8:00)",
+      "publish_date": "2026-06-03",
+      "publish_time": "08:00"
+    },
+    {
+      "filename": "dividend-stocks.html",
+      "title": "배당주 투자로 은퇴 준비하기: 고배당주 vs 배당성장주 비교 및 월 배당 포트폴리오 구축법",
+      "description": "매달 월세처럼 통장에 배당금이 꽂히는 무인 현금 시스템 만드는 노하우. 고정 배당률이 높은 고배당주와 기업 이익과 배당이 함께 늘어나는 배당성장주(SCHD 등)를 철저히 비교 분석하고, 은퇴 후를 위한 최적의 미국 월 배당 포트폴리오 기획안을 제시합니다.",
+      "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800&q=80",
+      "tag": "재테크 / 주식 투자",
+      "date_display": "2026. 06. 03 (오후 4:00)",
+      "publish_date": "2026-06-03",
+      "publish_time": "16:00"
+    },
+    {
+      "filename": "piece-investment.html",
+      "title": "소액으로 건물주가 되는 법: 부동산 조각 투자 및 리츠(REITs) 상품 완벽 비교",
+      "description": "단돈 1만 원으로 명동의 랜드마크 빌딩이나 강남 빌딩의 공동 소유주가 되는 혁신적인 소액 부동산 투자법. 조각 투자 플랫폼의 작동 원리 및 주의 사항, 그리고 매 분기 혹은 매달 안정적인 임대료 배당을 주는 리츠(REITs) 대표 상품군을 알기 쉽게 정리합니다.",
+      "image_url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80",
+      "tag": "재테크 / 소액 투자",
+      "date_display": "2026. 06. 04 (오전 8:00)",
+      "publish_date": "2026-06-04",
+      "publish_time": "08:00"
+    },
+    {
+      "filename": "tax-saving-isas.html",
+      "title": "직장인 유리가면 탈출기: ISA 계좌 종류와 연금저축펀드 활용 세액공제 재테크 치트키",
+      "description": "합법적으로 세금을 한 푼이라도 덜 내는 13월의 보너스 환급 전략. 비과세와 분리과세 혜택이 주어지는 개인종합자산관리계좌(ISA) 중개형 세팅 팁, 매년 최대 900만 원 한도의 연금저축과 IRP 계좌 납입을 통한 세액공제 세테크 공식을 전수합니다.",
+      "image_url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80",
+      "tag": "금융 / 세테크",
+      "date_display": "2026. 06. 04 (오후 4:00)",
+      "publish_date": "2026-06-04",
+      "publish_time": "16:00"
+    },
+    {
+      "filename": "ebook-publishing.html",
+      "title": "내 지식을 돈으로 바꾸는 전자책 출판: 2주 만에 PDF 전자책 제작 및 크몽 등록 실전 가이드",
+      "description": "디자인 실력과 특별한 기술이 없어도 나만의 무형 자산을 판매하여 첫 자동 소득을 거두는 법. 수요가 확실한 콘텐츠 주제 발굴 및 기획법, 독자의 가독성을 극대화하는 서식 마크업, 그리고 크몽 및 탈잉 입점 심사를 단번에 통과하는 비결을 정리합니다.",
+      "image_url": "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=800&q=80",
+      "tag": "부업 / 지식 비즈니스",
+      "date_display": "2026. 06. 05 (오전 8:00)",
+      "publish_date": "2026-06-05",
+      "publish_time": "08:00"
+    },
+    {
+      "filename": "affiliate-marketing.html",
+      "title": "초기 비용 0원으로 제휴 마케팅 시작하기: 쿠팡 파트너스 및 뉴스레터 활용 고수익 공략법",
+      "description": "쇼핑몰 재고 관리와 배송 스트레스 없이 수수료를 챙기는 고효율 부업. 검색 봇에게 페널티를 받지 않는 안전한 쿠팡 파트너스 및 다이렉트 제휴 채널 링크 연동 팁, 그리고 타깃 이메일 뉴스레터를 연동해 고단가 제휴 수익률을 유지하는 시스템 구성을 해부합니다.",
+      "image_url": "https://images.unsplash.com/photo-1557200134-90327ee9fafa?auto=format&fit=crop&w=800&q=80",
+      "tag": "부업 / 제휴 마케팅",
+      "date_display": "2026. 06. 05 (오후 4:00)",
+      "publish_date": "2026-06-05",
+      "publish_time": "16:00"
+    },
+    {
+      "filename": "bonds-investment.html",
+      "title": "금리 인하 기 초보자를 위한 채권 투자 전략: 국공채 및 회사채 차이와 실전 매매법",
+      "description": "변동성 큰 주식 시장의 피난처이자 최고의 이자 파이프라인인 채권 투자의 정석. 금리와 채권 가격의 반비례 관계를 활용한 매매차익 기법, 국가가 보증하는 국공채와 고금리를 주는 우량 회사채(A등급 이상) 선별 요령을 초보자 눈높이에서 해석합니다.",
+      "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800&q=80",
+      "tag": "재테크 / 채권 투자",
+      "date_display": "2026. 06. 06 (오전 8:00)",
+      "publish_date": "2026-06-06",
+      "publish_time": "08:00"
+    },
+    {
+      "filename": "smartstore-ecommerce.html",
+      "title": "퇴근 후 하루 1시간 스마트스토어 부업: 무재고 위탁 판매 마진 확보 및 아이템 발굴 요령",
+      "description": "사무실 한 켠에 재고를 쌓아두지 않고 스마트스토어로 스마트하게 수익을 올리는 법. 도매꾹, 도매매 등 위탁 사이트를 연동한 인기 키워드 아이템 소싱 비결, 상위 노출을 결정하는 상품명 작명과 클릭을 부르는 첫 이미지 설정법을 자세히 해부합니다.",
+      "image_url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80",
+      "tag": "부업 / 쇼핑몰 창업",
+      "date_display": "2026. 06. 06 (오후 4:00)",
+      "publish_date": "2026-06-06",
+      "publish_time": "16:00"
+    },
+    {
+      "filename": "credit-cards-mileage.html",
+      "title": "숨은 혜택 100% 짜내기: 신용카드 피킹률 계산과 통신비·관리비 할인 카드 리모델링 전략",
+      "description": "무심코 긁던 카드 고지서에서 새는 돈을 완전히 걸러내는 법. 카드 결제액 대비 혜택 비율을 뜻하는 피킹률(Picking Rate) 계산법, 생활 고정 지출인 통신요금과 아파트 관리비 할인 특화 카드 결합법, 항공사 마일리지 적립 특화 활용 전략을 제시합니다.",
+      "image_url": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80",
+      "tag": "재테크 / 스마트 소비",
+      "date_display": "2026. 06. 07 (오전 8:00)",
+      "publish_date": "2026-06-07",
+      "publish_time": "08:00"
+    },
+    {
+      "filename": "youth-welfare-benefits.html",
+      "title": "청년 우대 청약 종합저축과 청년도약계좌 완벽 가이드: 목돈 마련 정부 지원 혜택 비교",
+      "description": "정부가 만 19세~34세 이하 청년층에게 제공하는 최고 혜택의 서포트 금융 상품 요약. 최대 연 4.5% 고금리와 이자소득 비과세를 주는 청년 우대형 청약통장 자격 요건, 5년 납입 시 정부 기여금과 비과세를 더해 최고 5천만 원을 만드는 청년도약계좌 매칭 전략을 총망라합니다.",
+      "image_url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80",
+      "tag": "부동산 / 청년 혜택",
+      "date_display": "2026. 06. 07 (오후 4:00)",
+      "publish_date": "2026-06-07",
+      "publish_time": "16:00"
+    },
+    {
+      "filename": "passive-income-digital.html",
+      "title": "자는 동안 들어오는 돈: 노션 템플릿 및 디지털 그래픽 리소스 제작 판매 파이프라인",
+      "description": "초기 무형의 리소스 제작 후 무한대로 복제 판매되어 배송비 없이 수익을 내는 패시브 인컴 모델. 글로벌 템플릿 판매 시장인 Gumroad, Etsy 입점 노하우, 실질적으로 팔리는 노션(Notion) 대시보드 기획과 홍보 채널 개설 꿀팁을 전수합니다.",
+      "image_url": "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=800&q=80",
+      "tag": "부업 / 패시브 인컴",
+      "date_display": "2026. 06. 08 (오전 8:00)",
+      "publish_date": "2026-06-08",
+      "publish_time": "08:00"
+    },
+    {
+      "filename": "freelance-outsourcing.html",
+      "title": "1인 프리랜서 독립 첫걸음: 크몽 및 숨고에서 몸값(단가)을 300% 높이는 포트폴리오 연출 전략",
+      "description": "초기 저가 경쟁에 뛰어들어 지치지 않고, 프리랜서 시장에서 단숨에 상위 등급 판매자로 안착하는 프로필 구성 전략. 신뢰감을 높이는 대표 포트폴리오 선별, 가격 테이블 세분화를 통한 업셀링 기법, 첫 고객의 호평과 평점 관리를 이끄는 실무 소통 팁을 해부합니다.",
+      "image_url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80",
+      "tag": "부업 / 프리랜서 독립",
+      "date_display": "2026. 06. 08 (오후 4:00)",
+      "publish_date": "2026-06-08",
+      "publish_time": "16:00"
+    }
+  ]
+}
