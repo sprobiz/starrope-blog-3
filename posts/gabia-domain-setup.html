@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>가비아 개인 도메인 깃허브 Pages 연결 및 SSL/HTTPS 보안 설정 완벽 가이드 | Starrope 자산관리</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="가비아(Gabia)에서 구매한 개인 도메인을 깃허브 블로그에 연결하고, CNAME 설정 및 HTTPS 보안 연결 비활성화 에러를 해결하는 실전 세팅법을 공유합니다.">
+  <meta name="keywords" content="가비아, 개인도메인, 깃허브블로그, CNAME, HTTPS설정, SSL인증서, 블로그수익화">
+  
+  <!-- Link CSS (relative path) -->
+  <link rel="stylesheet" href="../assets/style.css">
+  
+  <!-- Pre-configured Google AdSense Auto Ads Tag -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1692428092138510" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">S</div>
+        <span class="gradient-text">Starrope 자산관리</span>
+      </a>
+      
+      <nav class="nav-links">
+        <a href="../index.html" class="nav-item">홈</a>
+        <a href="../index.html#articles" class="nav-item">자산 포스트</a>
+        <a href="../about.html" class="nav-item">블로그 소개</a>
+        <a href="../privacy-policy.html" class="nav-item">개인정보처리방침</a>
+        <a href="../terms-of-service.html" class="nav-item">이용약관</a>
+      </nav>
+      
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="다크 모드 토글">
+          <!-- Moon Icon -->
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+          </svg>
+          <!-- Sun Icon -->
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 9H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707M14 12a2 2 0 11-4 0 2 2 0 014 0z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- POST HEADER -->
+  <header class="post-header">
+    <div class="post-header-tag">부업 / 블로그 수익화</div>
+    <h1 class="post-header-title">가비아 개인 도메인 깃허브 Pages 연결 및 SSL/HTTPS 보안 설정 완벽 가이드</h1>
+    <div class="post-header-meta">
+      <span>작성자: Starrope</span>
+      <span>•</span>
+      <span>2026. 06. 03</span>
+      <span>•</span>
+      <span>읽기 시간: 약 5분</span>
+    </div>
+  </header>
+
+  <!-- AD SLOT (POST TOP DISPLAY) -->
+  <div class="container">
+    <ins class="adsbygoogle ad-slot ad-header"
+         style="display:block"
+         data-ad-client="ca-pub-1692428092138510"
+         data-ad-slot="9876540012"
+         data-ad-format="auto"
+         data-full-width-responsive="true">
+      <div class="ad-slot-label">포스트 상단 Premium 배너</div>
+    </ins>
+  </div>
+
+  <!-- ARTICLE LAYOUT -->
+  <main class="container post-article-layout">
+    
+    <!-- LEFT: MAIN CONTENT -->
+    <article class="post-content">
+      
+      <p>구글 애드센스 수익을 극대화하고 나만의 브랜드 가치를 높이기 위해 가장 먼저 실행해야 할 작업은 바로 '개인 커스텀 도메인 연결'입니다. 무료 기본 주소(예: github.io)는 애드센스 하위 도메인 승인이나 검색 최적화(SEO) 면에서 제약이 많기 때문입니다. 국내 대표 도메인 등록처인 가비아(Gabia)에서 산 개인 도메인을 깃허브 Pages 블로그에 연결하고, 흔히 겪는 'HTTPS Enforce 비활성화' 문제까지 깔끔하게 해결하는 전 과정을 상세히 정리해 드립니다.</p>
+      
+      <h2>1. 가비아(Gabia) DNS CNAME 레코드 세팅 요령</h2>
+      <p>가장 먼저 해야 할 일은 내 도메인(`starrope2023.com`)으로 들어오는 트래픽이 깃허브 서버 호스팅 지점(`sprobiz.github.io`)을 찾아갈 수 있게 이정표를 세우는 것입니다. 가비아의 [DNS 관리툴] 페이지에서 연결할 블로그 서브도메인의 CNAME 레코드를 아래와 같이 입력합니다.</p>
+      
+      <blockquote>
+        "가비아 CNAME 레코드 설정 시 값/위치 항목에 깃허브 주소를 적을 때는 끝에 마침표(.)를 반드시 붙여주어야 오류 없이 저장됩니다."
+      </blockquote>
+      
+      <p>실전 CNAME 레코드 입력 규격 예시:</p>
+      <ul>
+        <li><strong>타입:</strong> `CNAME`</li>
+        <li><strong>호스트:</strong> `blog3` (연결하고자 하는 3번 블로그의 서브도메인 이름)</li>
+        <li><strong>값/위치:</strong> `sprobiz.github.io.` (마침표 포함 필수)</li>
+        <li><strong>TTL:</strong> `1800` (반영 주기를 30분 단위로 단축시켜 도메인 전파 속도를 극대화하는 꿀팁입니다.)</li>
+      </ul>
+      
+      <h2>2. 깃허브 Pages CNAME 주입과 DNS 정상 인증 확인</h2>
+      <p>레코드를 세팅했다면 깃허브 저장소에서도 이를 맞이할 준비를 해야 합니다. 저장소 루트 폴더에 소문자로 **`CNAME`**이라는 이름의 파일을 새로 생성하고, 그 안에 내가 연결할 도메인 주소(예: `blog3.starrope2023.com`)를 단 한 줄만 적어 저장하면 됩니다.</p>
+
+      <!-- AD SLOT (IN-CONTENT DISPLAY) -->
+      <ins class="adsbygoogle ad-slot ad-content"
+           style="display:block; text-align:center;"
+           data-ad-layout="in-article"
+           data-ad-format="fluid"
+           data-ad-client="ca-pub-1692428092138510"
+           data-ad-slot="9876540013">
+        <div class="ad-slot-label">본문 내 네이티브 하이브리드 광고</div>
+      </ins>
+
+      <p>이후 깃허브 저장소의 **[Settings] ➡️ [Pages]** 탭으로 들어가면 Custom domain 항목에 내가 설정한 도메인이 등록되어 있으며, 자동 테스트를 거쳐 **`DNS check successful` (DNS 검증 완료)** 초록색 가이드 메시지가 안전하게 나타나는 것을 볼 수 있습니다.</p>
+
+      <h2>3. 초보자를 당황하게 하는 HTTPS 비활성화 해결법</h2>
+      <p>도메인 연결 직후 많은 블로거들이 당황하는 지점이 바로 **`Enforce HTTPS` (보안 보안 연결 강제)** 체크박스가 grayed out 되어 비활성화되어 있는 현상입니다. 경고문에는 '도메인이 HTTPS를 지원하도록 제대로 구성되지 않았다'는 위협적인 문구가 뜨기도 합니다.</p>
+      <p>결론부터 말씀드리면 이는 **설정 오류가 아니라 Let's Encrypt를 통한 무료 SSL 보안 인증서가 깃허브 서버 측에서 발급되는 물리적 대기 시간** 때문입니다. DNS 검증이 성공했다면 백그라운드에서 보안 인증서 생성 스크립트가 실행되고 있는 중이므로, **약 5분에서 30분 정도** 여유를 가지고 기다리시면 됩니다. 대기 후 페이지를 새로고침하면 체크박스가 정상 활성화되며, 체크 시 `https://` 보안 통신 프로토콜이 최종 적용됩니다.</p>
+
+      <!-- HIGH-CONVERTING REDIRECT CTA BOX (AdSense Vignette 100% Trigger Bridge link) -->
+      <div class="redirect-box">
+        <h3 class="redirect-title">📍 공식 가비아 DNS 관리 서비스 바로가기</h3>
+        <p class="redirect-desc">
+          공식 가비아 홈페이지의 DNS 설정 지면으로 이동하여 내 도메인의 CNAME 레코드가 정상 반영되었는지 점검해 보세요.<br>
+          (이동 시 1~2초간 보안 채널 리다이렉트가 진행될 수 있습니다.)
+        </p>
+        <a href="../apply.html?target=https://dns.gabia.com" class="redirect-cta-btn" target="_blank" rel="noopener">
+          가비아 DNS 설정 페이지로 이동
+          <svg xmlns="http://www.w3.org/2000/svg" style="width: 18px; height: 18px;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+
+      <h2>결론</h2>
+      <p>개인 도메인을 연결하는 것은 애드센스 승인 심사를 한 번에 통과하고 고부가가치 타깃팅 광고 단가를 이끌어내는 데 있어 타협할 수 없는 필수 과제입니다. 이번 세팅을 마친 블로그는 향후 검색 노출 유입량이 폭발할 때 완벽한 자산 증식 플랫폼으로 기능하게 될 것입니다. 꼼꼼히 설정하셔서 보안 자물쇠 표시(HTTPS)가 달린 멋진 나만의 개인 브랜딩 사이트를 완성해 보시기 바랍니다.</p>
+      
+    </article>
+    
+    <!-- RIGHT: SIDEBAR -->
+    <aside class="sidebar">
+      
+      <!-- Bio Widget -->
+      <div class="sidebar-widget">
+        <h3 class="widget-title">에디터 프로필</h3>
+        <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 12px;">
+          <div style="width: 50px; height: 50px; border-radius: 12px; background: linear-gradient(135deg, var(--primary-color), var(--accent-color)); display: flex; align-items: center; justify-content: center; color: white; font-weight: 900; font-family: var(--font-title); font-size: 20px;">S</div>
+          <div>
+            <h4 style="font-size: 15px;">Starrope Wealth</h4>
+            <span style="font-size: 11px; color: var(--text-muted);">자산관리 & 패시브인컴 파트너</span>
+          </div>
+        </div>
+        <p style="font-size: 13.5px; color: var(--text-muted); line-height: 1.6;">안정적인 현금 흐름(Cash Flow)과 미래 자산 가치 향상을 목표로 합니다. 미국 주식 적립식 투자, 현실 부업, 청약 전략 및 세테크 등 검증된 금융 실전 인사이트를 전달합니다.</p>
+      </div>
+      
+      <!-- Ad Widget -->
+      <ins class="adsbygoogle ad-slot ad-sidebar sidebar-widget"
+           style="display:block"
+           data-ad-client="ca-pub-1692428092138510"
+           data-ad-slot="9876540014"
+           data-ad-format="rectangle"
+           data-full-width-responsive="true">
+        <div class="ad-slot-label">추천 금융 우대 제휴</div>
+      </ins>
+      
+      <!-- Navigation Widget -->
+      <div class="sidebar-widget">
+        <h3 class="widget-title">빠른 이동</h3>
+        <ul class="categories-list">
+          <li><a href="../index.html">🏠 자산 블로그 홈</a></li>
+          <li><a href="../about.html">👤 블로그 소개란</a></li>
+        </ul>
+      </div>
+      
+    </aside>
+  </main>
+
+  <!-- AD SLOT (POST BOTTOM DISPLAY) -->
+  <div class="container" style="margin-bottom: 60px;">
+    <ins class="adsbygoogle ad-slot ad-footer"
+         style="display:block"
+         data-ad-client="ca-pub-1692428092138510"
+         data-ad-slot="9876540015"
+         data-ad-format="horizontal"
+         data-full-width-responsive="true">
+      <div class="ad-slot-label">추천 금융 및 자산 증식 링크</div>
+    </ins>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-info">
+        <a href="../index.html" class="logo footer-info-logo">
+          <div class="logo-icon">S</div>
+          <span class="gradient-text">Starrope 자산관리</span>
+        </a>
+        <p>현명한 개인 투자자와 N잡러들을 위해 금융, 주식, 청약 제도 및 실천적 부업 방법론을 다루는 프리미엄 자산관리 지식 허브입니다.</p>
+      </div>
+      
+      <div class="footer-links">
+        <h4>개인정보 및 약관 고지</h4>
+        <ul>
+          <li><a href="../privacy-policy.html">개인정보처리방침</a></li>
+          <li><a href="../terms-of-service.html">이용약관</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Starrope 자산관리 & 패시브인컴. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Link JS (relative path) -->
+  <script src="../assets/main.js"></script>
+  
+  <!-- Trigger Adsense rendering loop -->
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</body>
+</html>
