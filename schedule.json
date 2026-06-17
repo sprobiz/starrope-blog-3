@@ -292,15 +292,14 @@
     },
     {
       "filename": "monthly-dividend-etf-portfolio.html",
-      "title": "자동 수익(Passive Income)을 위한 고배당 ETF 및 채권 월배당 분배금 포트폴리오 설계",
+      "title": "자동 수익(Passive Income)을 위한 고배당 ETF 및 채권 월배당 분배금 포절 포트폴리오 설계",
       "description": "매달 월세처럼 통장에 분배금이 꽂히는 미국 월배당 ETF 포트폴리오 설계법. SCHD, JEPI 등 대표 고배당 상품 비교 분석 및 복리 재투자 비법을 공개합니다.",
       "image_url": "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=800&q=80",
       "tag": "부업 / 패시브 인컴",
       "date_display": "2026. 06. 30 (오전 7:30)",
       "publish_date": "2026-06-30",
       "publish_time": "07:30"
-    }
-  ,
+    },
     {
       "filename": "parking-account-cma.html",
       "title": "파킹통장 vs CMA: 하루만 맡겨도 이자 받는 단기 고금리 통장 완벽 비교",
@@ -550,6 +549,16 @@
       "date_display": "2026. 06. 30 (오후 1:00)",
       "publish_date": "2026-06-30",
       "publish_time": "13:00"
+    },
+    {
+      "filename": "youth-leap-account-2026.html",
+      "image_url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=800&q=80",
+      "tag": "금융 / 세테크",
+      "date_display": "2026. 06. 18 (오전 8:20)",
+      "title": "2026년 청년도약계좌 신청 자격 조건 및 중도해지 비과세 혜택 총정리",
+      "description": "청년들의 목돈 마련을 지원하는 2026년 청년도약계좌의 가입 조건과 정부 기여금 매칭 비율, 그리고 중도해지 시 비과세 적용 기준을 완벽 분석합니다.",
+      "publish_date": "2026-06-18",
+      "publish_time": "08:20"
     }
   ]
 }
