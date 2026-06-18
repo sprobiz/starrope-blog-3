@@ -53,7 +53,7 @@
     {
       "filename": "dividend-stocks.html",
       "title": "배당주 투자로 은퇴 준비하기: 고배당주 vs 배당성장주 비교 및 월 배당 포트폴리오 구축법",
-      "description": "매달 월세처럼 통장에 배당금이 꽂히는 무인 현금 시스템 만드는 노하우. 고정 배당률이 높은 고배당주와 기업 이익과 배당이 함께 늘어나는 배당성장주(SCHD 등)를 철저히 비교 분석하고, 은퇴 후를 위한 최적의 미국 월 배당 포트폴리오 기획안을 제시합니다.",
+      "description": "매달 월세처럼 통장에 배당금이 꽂히는 무인 현금 시스템 만드는 노하우. 고정 배당률이 높은 고배당주와 기업 이익 and 배당이 함께 늘어나는 배당성장주(SCHD 등)를 철저히 비교 분석하고, 은퇴 후를 위한 최적의 미국 월 배당 포트폴리오 기획안을 제시합니다.",
       "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800&q=80",
       "tag": "재테크 / 주식 투자",
       "date_display": "2026. 06. 06 (오전 5:00)",
@@ -292,14 +292,15 @@
     },
     {
       "filename": "monthly-dividend-etf-portfolio.html",
-      "title": "자동 수익(Passive Income)을 위한 고배당 ETF 및 채권 월배당 분배금 포절 포트폴리오 설계",
+      "title": "자동 수익(Passive Income)을 위한 고배당 ETF 및 채권 월배당 분배금 포트폴리오 설계",
       "description": "매달 월세처럼 통장에 분배금이 꽂히는 미국 월배당 ETF 포트폴리오 설계법. SCHD, JEPI 등 대표 고배당 상품 비교 분석 및 복리 재투자 비법을 공개합니다.",
       "image_url": "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=800&q=80",
       "tag": "부업 / 패시브 인컴",
       "date_display": "2026. 06. 30 (오전 7:30)",
       "publish_date": "2026-06-30",
       "publish_time": "07:30"
-    },
+    }
+  ,
     {
       "filename": "parking-account-cma.html",
       "title": "파킹통장 vs CMA: 하루만 맡겨도 이자 받는 단기 고금리 통장 완벽 비교",
@@ -559,6 +560,16 @@
       "description": "청년들의 목돈 마련을 지원하는 2026년 청년도약계좌의 가입 조건과 정부 기여금 매칭 비율, 그리고 중도해지 시 비과세 적용 기준을 완벽 분석합니다.",
       "publish_date": "2026-06-18",
       "publish_time": "08:20"
+    },
+    {
+      "filename": "dividend-growth-investing-portfolio.html",
+      "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800&q=80",
+      "tag": "재테크",
+      "date_display": "2026. 06. 18",
+      "title": "2026년 미국 배당성장주 포트폴리오 구성법: 월 100만원 패시브 인컴 만들기",
+      "description": "은퇴 준비 및 경제적 자유를 위해 2026년 최적화된 미국 배당성장주 포트폴리오 구성법을 알아봅니다. 고배당주와 배당성장주의 균형, 배당성장률의 중요성을 총정리합니다.",
+      "publish_date": "2026-06-18",
+      "publish_time": "08:00"
     }
   ]
 }
