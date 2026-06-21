@@ -53,7 +53,7 @@
     {
       "filename": "dividend-stocks.html",
       "title": "배당주 투자로 은퇴 준비하기: 고배당주 vs 배당성장주 비교 및 월 배당 포트폴리오 구축법",
-      "description": "매달 월세처럼 통장에 배당금이 꽂히는 무인 현금 시스템 만드는 노하우. 고정 배당률이 높은 고배당주와 기업 이익 and 배당이 함께 늘어나는 배당성장주(SCHD 등)를 철저히 비교 분석하고, 은퇴 후를 위한 최적의 미국 월 배당 포트폴리오 기획안을 제시합니다.",
+      "description": "매달 월세처럼 통장에 배당금이 꽂히는 무인 현금 시스템 만드는 노하우. 고정 배당률이 높은 고배당주와 기업 이익과 배당이 함께 늘어나는 배당성장주(SCHD 등)를 철저히 비교 분석하고, 은퇴 후를 위한 최적의 미국 월 배당 포트폴리오 기획안을 제시합니다.",
       "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800&q=80",
       "tag": "재테크 / 주식 투자",
       "date_display": "2026. 06. 06 (오전 5:00)",
@@ -494,7 +494,7 @@
     {
       "filename": "yield-curve-inversion.html",
       "title": "금리 역전(장단기 역전) 현상과 경기침체 신호: 투자자가 반드시 알아야 할 거시경제 지표",
-      "description": "10년물-2년물 미국 국채 수익률 역전이 왜 경기침체의 선행 지표로 알려졌는지, 역전 후 평균 경기침체 도달 기간, 그리고 이 시기에 수익을 지키는 방어적 자산 배분 전략을 알아봅니다.",
+      "description": "10년물-2년물 미국 국채 수익률 역전이 왜 경기침체의 선행 지표로 알려졌는지, 역전 후 경기침체 도달 평균 기간, 그리고 이 시기에 수익을 지키는 방어적 자산 배분 전략을 알아봅니다.",
       "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800&q=80",
       "tag": "재테크 / 거시경제",
       "date_display": "2026. 06. 25 (오후 1:00)",
@@ -570,6 +570,26 @@
       "description": "은퇴 준비 및 경제적 자유를 위해 2026년 최적화된 미국 배당성장주 포트폴리오 구성법을 알아봅니다. 고배당주와 배당성장주의 균형, 배당성장률의 중요성을 총정리합니다.",
       "publish_date": "2026-06-18",
       "publish_time": "08:00"
+    },
+    {
+      "filename": "domestic-sp500-etf-comparison.html",
+      "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800&q=80",
+      "tag": "재테크",
+      "date_display": "06. 19",
+      "title": "국내 상장 미국 S&P500 ETF 완벽 비교: TIGER, ACE, KBSTAR 수수료 및 배당금(분배율) 비교 분석",
+      "description": "장기 적립식 투자의 대명사인 미국 S&P500 지수 추종 국내 상장 ETF 대표 3사(TIGER, ACE, KBSTAR)의 실제 운용 수수료(총비용비율), 연간 배당 분배율, 그리고 연금저축/IRP 계좌에서의 세제 혜택 극대화 꿀팁을 깔끔히 비교 총정리합니다.",
+      "publish_date": "2026-06-19",
+      "publish_time": "08:30"
+    },
+    {
+      "filename": "isa-maturity-to-pension.html",
+      "title": "ISA 만기 자금 연금계좌 전환으로 최대 300만 원 추가 세액공제 받는 절세 전략",
+      "description": "5년 만기된 개인종합자산관리계좌(ISA)의 목돈을 연금저축이나 IRP 계좌로 전환하여, 기본 세액공제 외에 추가로 최대 300만 원의 세액공제 혜택을 챙기고 노후 준비까지 완벽히 마치는 절세 치트키를 정리합니다.",
+      "image_url": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80",
+      "tag": "금융 / 세테크",
+      "date_display": "2026. 06. 21 (오후 11:15)",
+      "publish_date": "2026-06-21",
+      "publish_time": "23:00"
     }
   ]
 }
