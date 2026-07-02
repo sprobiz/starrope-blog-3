@@ -3,3 +3,5 @@ Allow: /
 Sitemap: https://blog3.starrope2023.com/sitemap.xml
 
 #DaumWebMasterTool:b0b2d160e807e2da70517e26f9e7962a04b6350728fee118153e6ebab7e4ff4f:KOsyJDjcG4MjhwgCiTJ07A==
+# Trigger redeploy
+
